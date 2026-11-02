@@ -1,0 +1,7 @@
+# Dependencias (se reinstalan con npm install)
+node_modules
+# Carpeta generada al compilar
+dist
+# Archivos de logs y del sistema
+*.log
+.DS_Store

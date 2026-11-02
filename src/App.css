@@ -1,0 +1,59 @@
+:root {
+  --purple: #6a00b3;
+  --bs-link-color: #6a00b3;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Segoe UI', Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+section { scroll-margin-top: 20px; }
+
+.bg-purple { background-color: var(--purple); }
+.contact-info { font-size: 0.65rem; line-height: 1.2; }
+
+.title-purple { color: var(--purple); font-weight: 700; }
+h1.title-purple { font-size: 2.6rem; }
+
+.avatar { max-width: 280px; }
+.intro-text { color: #6c757d; font-size: 1.05rem; }
+
+.skill-card { border: 1px solid #ddd; border-radius: 4px; }
+.skill-icon { width: 28px; height: 28px; }
+.skill-name { font-size: 0.65rem; font-weight: 700; }
+.skill-exp { font-size: 0.85rem; }
+
+.project-divider { width: 70%; margin: 0.5rem auto; color: #ccc; }
+
+.recommendation-card { border-radius: 8px; border: 1px solid #ccc; }
+.recommendation-text { font-size: 0.78rem; margin-bottom: 0; }
+
+.btn-outline-purple {
+  color: var(--purple);
+  border-color: var(--purple);
+  background: #fff;
+}
+.btn-outline-purple:hover,
+.btn-outline-purple:focus {
+  color: #fff;
+  background-color: var(--purple);
+  border-color: var(--purple);
+}
+
+.scroll-top-btn {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  background-color: var(--purple);
+  border-color: var(--purple);
+  z-index: 1000;
+}
+.scroll-top-btn:hover { background-color: #4f0087; border-color: #4f0087; }
+
+@media (max-width: 575.98px) {
+  h1.title-purple { font-size: 2rem; }
+}
